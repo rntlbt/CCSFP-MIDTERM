@@ -1,6 +1,6 @@
 <?php
 include_once '../../../configuration/settings-configuration.php';
-require_once 'user-class.php';
+require_once 'admin-class.php';
 
 //URL
 $user = new USER();

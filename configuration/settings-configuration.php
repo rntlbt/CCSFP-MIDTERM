@@ -78,8 +78,7 @@ class SystemConfig {
 
     }
 
-    public function runQuery($sql)
-    {
+    public function runQuery($sql) {
         $stmt = $this->conn->prepare($sql);
         return $stmt;
     }
